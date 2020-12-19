@@ -3,7 +3,7 @@
     "back-end-config": "index.js"
   },
   "name": "@calme1709/back-end-config",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Tool chain configuration for back end projects",
   "dependencies": {
     "@calme1709/config-common": "^1.0.3",
