@@ -1,35 +1,25 @@
 const eslint = require("./eslint");
 
-/**
-* Simple object check.
-* @param item
-* @returns {boolean}
-*/
 function isObject(item) {
 	return (item && typeof item === 'object' && !Array.isArray(item));
 }
-
-/**
-* Deep merge two objects.
-* @param target
-* @param ...sources
-*/
-function deepMerge(target, ...sources) {
- if (!sources.length) return target;
- const source = sources.shift();
-
- if (isObject(target) && isObject(source)) {
-   for (const key in source) {
-	 if (isObject(source[key])) {
-	   if (!target[key]) Object.assign(target, { [key]: {} });
-	   deepMerge(target[key], source[key]);
-	 } else {
-	   Object.assign(target, { [key]: source[key] });
-	 }
-   }
- }
-
- return deepMerge(target, ...sources);
+	
+function deepMerge(target, source) {
+	let output = Object.assign({}, target);
+	if (isObject(target) && isObject(source)) {
+		Object.keys(source).forEach(key => {
+			if (isObject(source[key])) {
+				if (!(key in target))
+					Object.assign(output, { [key]: source[key] });
+				else
+					output[key] = deepMerge(target[key], source[key]);
+			} else {
+				Object.assign(output, { [key]: source[key] });
+			}
+		});
+	}
+	
+	return output;
 }
 
 module.exports = {
