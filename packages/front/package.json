@@ -6,7 +6,7 @@
   "version": "1.0.14",
   "description": "Tool chain configuration for front end projects",
   "dependencies": {
-    "@calme1709/config-common": "1.0.0",
+    "@calme1709/config-common": "1.0.1",
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
