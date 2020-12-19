@@ -1,0 +1,29 @@
+{
+  "bin": {
+    "back-end-config": "index.js"
+  },
+  "name": "@calme1709/back-end-config",
+  "version": "1.0.9",
+  "description": "Tool chain configuration for back end projects",
+  "dependencies": {
+    "ts-loader": "^8.0.12",
+    "ts-node-dev": "^1.1.1",
+    "tsconfig-paths": "3.9.0",
+    "webpack-node-externals": "2.5.2"
+  },
+  "author": "Callum Law",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Calme1709/Configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Calme1709/Configs/issues"
+  },
+  "homepage": "https://github.com/Calme1709/Configs#readme"
+}

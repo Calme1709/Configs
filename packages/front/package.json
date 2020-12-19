@@ -1,0 +1,52 @@
+{
+  "bin": {
+    "front-end-config": "index.js"
+  },
+  "name": "@calme1709/front-end-config",
+  "version": "1.0.14",
+  "description": "Tool chain configuration for front end projects",
+  "dependencies": {
+    "@calme1709/config-common": "1.0.0",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
+    "@babel/runtime": "^7.12.5",
+    "@svgr/webpack": "^5.5.0",
+    "autoprefixer": "^10.1.0",
+    "babel": "6.23.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^6.4.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^4.1.0",
+    "sass-lint": "1.13.1",
+    "sass-loader": "^10.1.0",
+    "source-map-loader": "^1.1.3",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.4.1"
+  },
+  "author": "Callum Law",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Calme1709/Configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Calme1709/Configs/issues"
+  },
+  "homepage": "https://github.com/Calme1709/Configs#readme"
+}

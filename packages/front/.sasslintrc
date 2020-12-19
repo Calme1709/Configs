@@ -1,0 +1,168 @@
+{
+	"options": {
+		"max-warnings": 50,
+		"merge-default-rules": false
+	},
+	"files": {
+		"include": "**/*.scss"
+	},
+	"rules": {
+		"attribute-quotes": [
+			2, {
+				"include": true
+			}
+		],
+		"bem-depth": [
+			2, {
+				"max-depth": 1
+			}
+		],
+		"border-zero": [
+			2, {
+				"convention": "none"
+			}
+		],
+		"brace-style": [
+			2, {
+				"style": "1tbs",
+				"allow-single-line": false
+			}
+		],
+		"class-name-format": [
+			2, {
+				"allow-leading-underscore": false,
+				"convention": "(^[a-z]|[A-Z0-9])[a-z]*",
+				"convention-explanation": "Class names must be pascal case (Upper camel case) e.g. 'UpperCamelCase'"
+			}
+		],
+		"clean-import-paths": 2,
+		"declarations-before-nesting": 2,
+		"empty-args": [
+			2, {
+				"include": true
+			}
+		],
+		"empty-line-between-blocks": [
+			2, {
+				"include": true,
+				"allow-single-line-rulesets": false
+			}
+        ],
+        "extends-before-declarations": 2,
+        "extends-before-mixins": 2,
+        "final-newline": [
+            2, {
+                "include": false
+            }
+        ],
+        "force-attribute-nesting": 2,
+        "force-element-nesting": 2,
+        "force-pseudo-nesting": 2,
+        "function-name-format": [
+            2, {
+                "allow-leading-underscore": false,
+				"convention": "(^[a-z]|[A-Z0-9])[a-z]*",
+				"convention-explanation": "Class names must be pascal case (Upper camel case) e.g. 'UpperCamelCase'"
+            }
+        ],
+        "hex-notation": [
+            2, {
+                "style": "uppercase"
+            }
+        ],
+        "id-name-format": [
+			2, {
+				"allow-leading-underscore": false,
+				"convention": "(^[a-z]|[A-Z0-9])[a-z]*",
+				"convention-explanation": "Class names must be pascal case (Upper camel case) e.g. 'UpperCamelCase'"
+			}
+        ],
+        "indentation": [
+            2, {
+                "size": "tab"
+            }
+        ],
+        "leading-zero": [
+            2, {
+                "include": true
+            }
+        ],
+        "max-file-line-count": 2,
+        "max-line-length": [
+            2, {
+                "length": 125
+            }
+        ],
+        "mixin-name-format": [
+			2, {
+				"allow-leading-underscore": false,
+				"convention": "(^[a-z]|[A-Z0-9])[a-z]*",
+				"convention-explanation": "Class names must be pascal case (Upper camel case) e.g. 'UpperCamelCase'"
+			}
+        ],
+        "mixins-before-declarations": 2,
+        "no-color-keywords": 2,
+        "no-combinators": 2,
+        "no-css-comments": 2,
+        "no-debug": 2,
+        "no-duplicate-properties": 2,
+        "no-empty-rulesets": 2,
+        "no-ids": 2,
+        "no-important": 2,
+        "no-mergeable-selectors": 2,
+        "no-misspelled-properties": 2,
+        "no-qualifying-elements": 2,
+        "no-trailing-whitespace": 2,
+        "no-trailing-zero": 2,
+        "no-transition-all": 2,
+        "no-universal-selectors": 2,
+        "no-url-domains": 2,
+        "no-url-protocols": 2,
+        "no-warn": 2,
+        "one-declaration-per-line": 2,
+        "placeholder-in-extend": 2,
+        "placeholder-name-format": [
+			2, {
+				"allow-leading-underscore": false,
+				"convention": "(^[a-z]|[A-Z0-9])[a-z]*",
+				"convention-explanation": "Class names must be pascal case (Upper camel case) e.g. 'UpperCamelCase'"
+			}
+        ],
+        "property-sort-order": [
+            2, {
+                "order": "concentric"
+            }
+        ], 
+        "pseudo-element": 2,
+        "quotes": [
+            2, {
+                "style": "double"
+            }
+        ],
+        "shorthand-values": 2,
+        "single-line-per-selector": 0,
+        "space-after-bang": [
+            2, {
+                "include": true
+            }
+        ], 
+        "space-after-colon": 2,
+        "space-after-comma": 2,
+        "space-around-operator": 2,
+        "space-before-bang": 2,
+        "space-before-brace": 2,
+        "space-before-colon": 2,
+        "space-between-parens": 2,
+        "trailing-semicolon": 2,
+        "url-quotes": 2,
+        "variable-for-property": 0,
+        "variable-name-format": [
+			2, {
+				"allow-leading-underscore": false,
+				"convention": "(^[a-z]|[A-Z0-9])[a-z]*",
+				"convention-explanation": "Class names must be pascal case (Upper camel case) e.g. 'UpperCamelCase'"
+			}
+        ],
+        "zero-unit": 2
+	}
+}
