@@ -3,10 +3,10 @@
     "back-end-config": "index.js"
   },
   "name": "@calme1709/back-end-config",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Tool chain configuration for back end projects",
   "dependencies": {
-    "@calme1709/config-common": "^1.0.3",
+    "@calme1709/config-common": "^1.0.4",
     "ts-loader": "^8.0.12",
     "ts-node-dev": "^1.1.1",
     "tsconfig-paths": "^3.9.0",
