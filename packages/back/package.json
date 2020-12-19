@@ -6,6 +6,7 @@
   "version": "1.0.9",
   "description": "Tool chain configuration for back end projects",
   "dependencies": {
+    "@calme1709/config-common": "1.0.1",
     "ts-loader": "^8.0.12",
     "ts-node-dev": "^1.1.1",
     "tsconfig-paths": "3.9.0",
