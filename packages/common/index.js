@@ -1,4 +1,4 @@
-const eslint = require("./eslint");
+const ESLint = require("./eslint");
 
 function isObject(item) {
 	return (item && typeof item === 'object' && !Array.isArray(item));
@@ -23,6 +23,6 @@ function deepMerge(target, source) {
 }
 
 module.exports = {
-	eslint,
+	ESLint,
 	deepMerge
 }
