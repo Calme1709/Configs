@@ -3,10 +3,10 @@
     "front-end-config": "index.js"
   },
   "name": "@calme1709/front-end-config",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Tool chain configuration for front end projects",
   "dependencies": {
-    "@calme1709/config-common": "1.0.2",
+    "@calme1709/config-common": "1.0.3",
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
