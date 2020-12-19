@@ -1,6 +1,6 @@
 {
   "name": "@calme1709/config-common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The common functionality between the front and back end configs",
   "main": "index.js",
   "scripts": {
