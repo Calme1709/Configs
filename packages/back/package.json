@@ -3,14 +3,14 @@
     "back-end-config": "index.js"
   },
   "name": "@calme1709/back-end-config",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Tool chain configuration for back end projects",
   "dependencies": {
-    "@calme1709/config-common": "1.0.1",
+    "@calme1709/config-common": "^1.0.2",
     "ts-loader": "^8.0.12",
     "ts-node-dev": "^1.1.1",
-    "tsconfig-paths": "3.9.0",
-    "webpack-node-externals": "2.5.2"
+    "tsconfig-paths": "^3.9.0",
+    "webpack-node-externals": "^2.5.2"
   },
   "author": "Callum Law",
   "license": "MIT",
