@@ -6,7 +6,7 @@ let executingProcess;
 
 switch(process.argv[2]){
 	case "start":
-		executingProcess = exec(`npx ts-node-dev -r tsconfig-paths/register --no-deps --project ./tsconfig.json ./src/index.ts`);
+		executingProcess = exec(`npx ts-node-dev --trace-warnings -r tsconfig-paths/register --no-deps --project ./tsconfig.json ./src/index.ts`);
 		
 		break;
 	case "build":
