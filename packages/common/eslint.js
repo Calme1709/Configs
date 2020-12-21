@@ -339,12 +339,6 @@ module.exports = {
 		"no-nested-ternary": "warn",
 		"no-new-object": "warn",
 		"no-plusplus": "warn",
-		"no-tabs": [
-			"warn",
-			{
-				"allowIndentationTabs": true
-			}
-		],
 		"no-trailing-spaces": "warn",
 		"no-underscore-dangle": "warn",
 		"no-unneeded-ternary": "warn",
