@@ -15,7 +15,7 @@
     "@babel/preset-react": "^7.12.7",
     "@babel/preset-typescript": "^7.12.7",
     "@babel/runtime": "^7.12.5",
-    "@calme1709/config-common": "1.0.4",
+    "@calme1709/config-common": "^2.0.0",
     "@svgr/webpack": "^5.5.0",
     "autoprefixer": "^10.1.0",
     "babel": "6.23.0",
