@@ -1,6 +1,6 @@
 {
   "name": "@calme1709/config-common",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "The common functionality between the front and back end configs",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,6 @@
     "typescript": "^4.1.3",
     "webpack": "^5.11.0",
     "webpack-cli": "^4.2.0"
-  }
+  },
+  "gitHead": "9fc7045b6f2e9e3d1b41f4c4537eff83dc90707f"
 }

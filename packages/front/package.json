@@ -3,7 +3,7 @@
     "front-end-config": "index.js"
   },
   "name": "@calme1709/front-end-config",
-  "version": "1.0.21",
+  "version": "2.0.0",
   "description": "Tool chain configuration for front end projects",
   "dependencies": {
     "@babel/core": "^7.12.9",
@@ -37,7 +37,6 @@
   "author": "Callum Law",
   "license": "MIT",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -48,5 +47,6 @@
   "bugs": {
     "url": "https://github.com/Calme1709/Configs/issues"
   },
-  "homepage": "https://github.com/Calme1709/Configs#readme"
+  "homepage": "https://github.com/Calme1709/Configs#readme",
+  "gitHead": "9fc7045b6f2e9e3d1b41f4c4537eff83dc90707f"
 }
