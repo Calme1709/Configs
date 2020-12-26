@@ -70,8 +70,7 @@ module.exports = {
 			patterns:[{
 				from: path.resolve(process.cwd() + "/public"),
 				to: "",
-				force: true,
-				flatten: true
+				force: true
 			}]
 		})
 	]
