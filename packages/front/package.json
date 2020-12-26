@@ -15,7 +15,7 @@
     "@babel/preset-react": "^7.12.7",
     "@babel/preset-typescript": "^7.12.7",
     "@babel/runtime": "^7.12.5",
-    "@calme1709/config-common": "^2.0.0",
+    "@calme1709/config-common": "^2.0.1",
     "@svgr/webpack": "^5.5.0",
     "autoprefixer": "^10.1.0",
     "babel": "6.23.0",
@@ -28,11 +28,11 @@
     "postcss-loader": "^4.1.0",
     "sass-lint": "1.13.1",
     "sass-loader": "^10.1.0",
-    "source-map-loader": "^1.1.3",
+    "source-map-loader": "^2.0.0",
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.4.1"
+    "webpack-merge": "^5.7.3"
   },
   "author": "Callum Law",
   "license": "MIT",
