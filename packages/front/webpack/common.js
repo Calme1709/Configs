@@ -2,6 +2,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const autoPrefixer = require("autoprefixer");
 const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
 	entry: {
@@ -72,6 +73,9 @@ module.exports = {
 				to: "",
 				force: true
 			}]
+		}),
+		new webpack.ProvidePlugin({
+			React: "react"
 		})
 	]
 };
