@@ -6,7 +6,7 @@ let executingProcess;
 
 switch(process.argv[2]){
 	case "start":
-		executingProcess = exec(`npx webpack-dev-server --config "${path.join(__dirname, "webpack/development.js")}"`);
+		executingProcess = exec(`npx webpack serve --progress --color --config "${path.join(__dirname, "webpack/development.js")}"`);
 		
 		break;
 	case "build":
