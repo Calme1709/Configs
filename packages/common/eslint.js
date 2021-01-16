@@ -390,10 +390,6 @@ module.exports = {
 		],
 		"switch-colon-spacing": "warn",
 		"template-tag-spacing": "warn",
-		"arrow-body-style": [
-			"warn",
-			"always"
-		],
 		"arrow-parens": [
 			"warn",
 			"as-needed"
