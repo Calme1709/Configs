@@ -362,7 +362,7 @@ module.exports = {
 		"operator-assignment": "warn",
 		"operator-linebreak": [
 			"warn",
-			"after"
+			"before"
 		],
 		"padded-blocks": [
 			"warn",
@@ -392,7 +392,7 @@ module.exports = {
 		"template-tag-spacing": "warn",
 		"arrow-body-style": [
 			"warn",
-			"as-needed"
+			"always"
 		],
 		"arrow-parens": [
 			"warn",
