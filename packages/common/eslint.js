@@ -640,6 +640,7 @@ module.exports = {
 		"@typescript-eslint/no-implicit-any-catch": "warn",
 		"@typescript-eslint/prefer-literal-enum-member": "warn",
 		"@typescript-eslint/no-confusing-non-null-assertion": "warn",
+		"@typescript-eslint/sort-type-union-intersection-members": "warn",
 		"jsdoc/check-access": "warn",
 		"jsdoc/check-alignment": "warn",
 		"jsdoc/check-param-names": "warn",
