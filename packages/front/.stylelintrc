@@ -121,9 +121,9 @@
 		"at-rule-empty-line-before": [
 			"always",
 			{
-				"except": [
+				"ignore": [
 					"first-nested",
-					"after-single-line-comment"
+					"after-comment"
 				]
 			}
 		],
