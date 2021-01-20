@@ -118,7 +118,15 @@
 		"media-query-list-comma-newline-before": "never-multi-line",
 		"media-query-list-comma-space-after": "never",
 		"media-query-list-comma-space-before": "never",
-		"at-rule-empty-line-before": "always",
+		"at-rule-empty-line-before": [
+			"always",
+			{
+				"except": [
+					"first-nested",
+					"after-single-line-comment"
+				]
+			}
+		],
 		"at-rule-name-case": "lower",
 		"at-rule-semicolon-newline-after": "always",
 		"at-rule-semicolon-space-before": "never",
