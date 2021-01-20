@@ -25,7 +25,6 @@
 		"selector-pseudo-element-no-unknown": true,
 		"selector-type-no-unknown": true,
 		"media-feature-name-no-unknown": true,
-		"at-rule-no-unknown": true,
 		"comment-no-empty": true,
 		"no-descending-specificity": true,
 		"no-duplicate-at-import-rules": true,
@@ -42,7 +41,6 @@
 		"font-weight-notation": "numeric",
 		"function-url-no-scheme-relative": true,
 		"number-max-precision": 2,
-		"shorthand-property-no-redundant-values": true,
 		"declaration-block-no-redundant-longhand-properties": true,
 		"declaration-no-important": true,
 		"declaration-block-single-line-max-declarations": 0,
@@ -83,18 +81,17 @@
 		"declaration-empty-line-before": "never",
 		"declaration-block-semicolon-newline-after": "always",
 		"declaration-block-semicolon-newline-before": "never-multi-line",
-		"declaration-block-semicolon-space-after": "never",
+		"declaration-block-semicolon-space-after": "always-single-line",
 		"declaration-block-semicolon-space-before": "never",
 		"declaration-block-trailing-semicolon": "always",
 		"block-closing-brace-empty-line-before": "never",
 		"block-closing-brace-newline-after": "always",
-		"block-closing-brace-newline-before": "never-multi-line",
-		"block-closing-brace-space-after": "never",
-		"block-closing-brace-space-before": "never",
+		"block-closing-brace-newline-before": "always-multi-line",
+		"block-closing-brace-space-after": "never-single-line",
 		"block-opening-brace-newline-after": "always",
-		"block-opening-brace-newline-before": "never-multi-line",
+		"block-opening-brace-newline-before": "never-single-line",
 		"block-opening-brace-space-before": "always",
-		"block-opening-brace-space-after": "never",
+		"block-opening-brace-space-after": "always-single-line",
 		"selector-attribute-brackets-space-inside": "never",
 		"selector-attribute-operator-space-before": "never",
 		"selector-attribute-operator-space-after": "never",
@@ -133,73 +130,72 @@
 		"max-line-length": 140,
 		"no-eol-whitespace": true,
 		"no-empty-first-line": true,
-		"at-each-key-value-single-line": true,
-		"at-else-closing-brace-newline-after": "always-last-in-chain",
-		"at-else-closing-brace-space-after": "always-intermediate",
-		"at-else-empty-line-before": "never",
-		"at-else-if-parentheses-space-before": "never",
-		"at-extend-no-missing-placeholder": true,
-		"at-function-parentheses-space-before": "never",
-		"at-function-pattern": [
+		"scss/at-each-key-value-single-line": true,
+		"scss/at-else-closing-brace-newline-after": "always-last-in-chain",
+		"scss/at-else-closing-brace-space-after": "always-intermediate",
+		"scss/at-else-empty-line-before": "never",
+		"scss/at-else-if-parentheses-space-before": "never",
+		"scss/at-extend-no-missing-placeholder": true,
+		"scss/at-function-parentheses-space-before": "never",
+		"scss/at-function-pattern": [
 			"[a-z]+[A-Z0-9][a-z0-9]+[A-Za-z0-9]*",
 			{
 				"message": "Function names must be lowerCamelCase"
 			}
 		],
-		"at-if-closing-brace-newline-after": "always-last-in-chain",
-		"at-if-closing-brace-space-after": "always-intermediate",
-		"at-import-no-partial-leading-underscore": true,
-		"at-import-partial-extension": "always",
-		"at-mixin-argumentless-call-parentheses": "never",
-		"at-mixin-parentheses-space-before": "never",
-		"at-mixin-pattern": [
+		"scss/at-if-closing-brace-newline-after": "always-last-in-chain",
+		"scss/at-if-closing-brace-space-after": "always-intermediate",
+		"scss/at-import-no-partial-leading-underscore": true,
+		"scss/at-import-partial-extension": "always",
+		"scss/at-mixin-argumentless-call-parentheses": "never",
+		"scss/at-mixin-parentheses-space-before": "never",
+		"scss/at-mixin-pattern": [
 			"[a-z]+[A-Z0-9][a-z0-9]+[A-Za-z0-9]*",
 			{
 				"message": "Mixin names must be lowerCamelCase"
 			}
 		],
 		"scss/at-rule-no-unknown": true,
-		"dollar-variable-colon-newline-after": "always-newline",
-		"dollar-variable-colon-space-after": "always-single-line",
-		"dollar-variable-empty-line-after": [
+		"scss/dollar-variable-colon-newline-after": "always-multi-line",
+		"scss/dollar-variable-colon-space-after": "always-single-line",
+		"scss/dollar-variable-empty-line-after": [
 			"always",
 			{
 				"except": [ "last-nested" ]
 			}
 		],
-		"dollar-variable-first-in-block": true,
-		"dollar-variable-no-missing-interpolation": true,
-		"dollar-variable-pattern": [
+		"scss/dollar-variable-first-in-block": true,
+		"scss/dollar-variable-no-missing-interpolation": true,
+		"scss/dollar-variable-pattern": [
 			"[a-z]+[A-Z0-9][a-z0-9]+[A-Za-z0-9]*",
 			{
 				"message": "Variables names must be lowerCamelCase"
 			}
 		],
-		"percent-placeholder-pattern": [
+		"scss/percent-placeholder-pattern": [
 			"[a-z]+[A-Z0-9][a-z0-9]+[A-Za-z0-9]*",
 			{
 				"message": "Placeholder names must be lowerCamelCase"
 			}
 		],
-		"double-slash-comment-empty-line-before": "always",
-		"double-slash-comment-whitespace-inside": "never",
-		"scss/comment-no-empty": true,
-		"comment-no-loud": true,
-		"declaration-nested-properties": "always",
-		"declaration-nested-properties-no-divided-groups": true,
-		"function-color-relative": true,
-		"function-quote-no-quoted-strings-inside": true,
-		"function-unquote-no-unquoted-strings-inside": true,
-		"map-keys-quotes": "always",
-		"media-feature-value-dollar-variable": "always",
-		"operator-no-newline-after": true,
-		"operator-no-newline-before": true,
-		"operator-no-unspaced": true,
-		"partial-no-import": true,
-		"selector-nest-combiners": "always",
-		"selector-no-union-class-name": true,
-		"no-duplicate-mixins": true,
-		"no-duplicate-dollar-variables": true,
-		"no-global-function-names": true
+		"scss/double-slash-comment-empty-line-before": "always",
+		"scss/double-slash-comment-whitespace-inside": "never",
+		"scss/comment-no-loud": true,
+		"scss/declaration-nested-properties": "always",
+		"scss/declaration-nested-properties-no-divided-groups": true,
+		"scss/function-color-relative": true,
+		"scss/function-quote-no-quoted-strings-inside": true,
+		"scss/function-unquote-no-unquoted-strings-inside": true,
+		"scss/map-keys-quotes": "always",
+		"scss/media-feature-value-dollar-variable": "always",
+		"scss/operator-no-newline-after": true,
+		"scss/operator-no-newline-before": true,
+		"scss/operator-no-unspaced": true,
+		"scss/partial-no-import": true,
+		"scss/selector-nest-combinators": "always",
+		"scss/selector-no-union-class-name": true,
+		"scss/no-duplicate-mixins": true,
+		"scss/no-duplicate-dollar-variables": true,
+		"scss/no-global-function-names": true
 	}
 }
