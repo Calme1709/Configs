@@ -7,8 +7,8 @@
   "description": "Tool chain configuration for back end projects",
   "dependencies": {
     "@calme1709/config-common": "^2.0.12",
-    "ts-loader": "^8.0.14",
-    "ts-node-dev": "^1.1.1",
+    "ts-loader": "^8.0.17",
+    "ts-node-dev": "^1.1.6",
     "tsconfig-paths": "^3.9.0",
     "webpack-node-externals": "^2.5.2"
   },
