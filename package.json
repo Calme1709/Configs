@@ -5,6 +5,6 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "bump-version": "npx lerna publish --skip-git"
+    "bump-version": "npx lerna publish"
   }
 }
