@@ -318,7 +318,6 @@ module.exports = {
 				"ignoreChainWithDepth": 4
 			}
 		],
-		"no-bitwise": "warn",
 		"no-inline-comments": "warn",
 		"no-lonely-if": "warn",
 		"no-mixed-operators": "warn",
@@ -586,7 +585,6 @@ module.exports = {
 		],
 		"@typescript-eslint/type-annotation-spacing": "warn",
 		"@typescript-eslint/unbound-method": "warn",
-		"@typescript-eslint/unified-signatures": "warn",
 		"@typescript-eslint/brace-style": [
 			"warn",
 			"1tbs"
