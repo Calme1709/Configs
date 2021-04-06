@@ -1,5 +1,8 @@
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const nodeExternals = require("webpack-node-externals");
+const DeclarationBundlerPlugin = require("declaration-bundler-webpack-plugin")
+
+const projectName = require(process.cwd() + "/package.json").name.replace(/^@.+\//, "");
 
 module.exports = {
 	mode: "production",
@@ -25,5 +28,11 @@ module.exports = {
 			}
 		]
 	},
-	externals: [ nodeExternals() ]
+	externals: [ nodeExternals() ],
+	plugins: [
+		new DeclarationBundlerPlugin({
+			moduleName: projectName,
+			out: process.cwd() + "/dist"
+		})
+	]
 };
