@@ -10,7 +10,7 @@ module.exports = {
 		path: process.cwd() + "/dist/"
 	},
 	resolve: {
-		extensions: [ ".ts", ".json" ],
+		extensions: [ ".ts", ".json", ".js" ],
 		plugins: [
 			new TsconfigPathsPlugin()
 		]
