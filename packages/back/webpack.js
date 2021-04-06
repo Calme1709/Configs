@@ -1,6 +1,6 @@
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const nodeExternals = require("webpack-node-externals");
-const DeclarationBundlerPlugin = require("declaration-bundler-webpack-plugin")
+const DeclarationBundlerPlugin = require("webpack-plugin-typescript-declaration-bundler");
 
 const projectName = require(process.cwd() + "/package.json").name.replace(/^@.+\//, "");
 
