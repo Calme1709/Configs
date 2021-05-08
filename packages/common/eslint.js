@@ -307,7 +307,6 @@ module.exports = {
 			"warn",
 			"always-multiline"
 		],
-		"new-cap": "warn",
 		"new-parens": [
 			"warn",
 			"always"
@@ -544,7 +543,6 @@ module.exports = {
 		"@typescript-eslint/no-misused-promises": "warn",
 		"@typescript-eslint/no-namespace": "warn",
 		"@typescript-eslint/no-non-null-asserted-optional-chain": "warn",
-		"@typescript-eslint/no-parameter-properties": "warn",
 		"@typescript-eslint/no-require-imports": "warn",
 		"@typescript-eslint/no-this-alias": "warn",
 		"@typescript-eslint/no-unnecessary-boolean-literal-compare": "warn",
